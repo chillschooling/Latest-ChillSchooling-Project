@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/Latest-ChillSchooling-Project/static/css/main.49dd0371.css",
-    "main.js": "/Latest-ChillSchooling-Project/static/js/main.e54fbad6.js",
+    "main.js": "/Latest-ChillSchooling-Project/static/js/main.2d121621.js",
     "static/js/453.a2e5adf7.chunk.js": "/Latest-ChillSchooling-Project/static/js/453.a2e5adf7.chunk.js",
     "index.html": "/Latest-ChillSchooling-Project/index.html",
     "main.49dd0371.css.map": "/Latest-ChillSchooling-Project/static/css/main.49dd0371.css.map",
-    "main.e54fbad6.js.map": "/Latest-ChillSchooling-Project/static/js/main.e54fbad6.js.map",
+    "main.2d121621.js.map": "/Latest-ChillSchooling-Project/static/js/main.2d121621.js.map",
     "453.a2e5adf7.chunk.js.map": "/Latest-ChillSchooling-Project/static/js/453.a2e5adf7.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.49dd0371.css",
-    "static/js/main.e54fbad6.js"
+    "static/js/main.2d121621.js"
   ]
 }
