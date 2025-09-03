@@ -1,0 +1,64 @@
+
+.chapter-list-container {
+  padding: 4rem 2rem;
+}
+
+.chapter-list-container h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  color: var(--primary-color);
+  margin-bottom: 3rem;
+}
+
+.chapter-card {
+  border: none;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  transition: all 0.3s ease;
+  background: linear-gradient(145deg, #ffffff, #e6e6e6);
+  margin-bottom: 2rem;
+  height: 100%;
+}
+
+.chapter-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 15px 40px rgba(0,0,0,0.2);
+}
+
+.chapter-card .card-body {
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.chapter-card .card-title {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: var(--primary-color);
+  margin-bottom: 1rem;
+}
+
+.chapter-card .card-text {
+  font-size: 1rem;
+  color: #555;
+  margin-bottom: 1.5rem;
+  flex-grow: 1;
+}
+
+.chapter-card .btn-primary {
+  background-color: var(--accent-color);
+  border-color: var(--accent-color);
+  padding: 10px 30px;
+  font-size: 1rem;
+  font-weight: 600;
+  border-radius: 50px;
+  transition: all 0.3s ease;
+  margin-top: auto;
+}
+
+.chapter-card .btn-primary:hover {
+  background-color: #218838;
+  border-color: #1e7e34;
+  transform: scale(1.05);
+}

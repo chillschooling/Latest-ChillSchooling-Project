@@ -1,0 +1,78 @@
+
+.resources-container {
+  padding: 4rem 2rem;
+}
+
+.resource-section {
+  margin-bottom: 5rem;
+}
+
+.resource-section h2 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: var(--primary-color);
+  margin-bottom: 3rem;
+  text-align: center;
+}
+
+.resource-section h2 i {
+  margin-right: 1rem;
+  color: var(--accent-color);
+}
+
+.resource-section .row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.resource-card {
+  border: none;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  transition: all 0.3s ease;
+  background: linear-gradient(145deg, #ffffff, #e6e6e6);
+  height: 100%; /* Ensure consistent height */
+}
+
+.resource-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 15px 40px rgba(0,0,0,0.2);
+}
+
+.resource-card .card-body {
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.resource-card .card-title {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: var(--primary-color);
+  margin-bottom: 1rem;
+}
+
+.resource-card .card-text {
+  font-size: 1rem;
+  color: #555;
+  margin-bottom: 1.5rem;
+  flex-grow: 1; /* Allow text to grow and push button to bottom */
+}
+
+.resource-card .btn-primary {
+  background-color: var(--accent-color);
+  border-color: var(--accent-color);
+  padding: 10px 30px;
+  font-size: 1rem;
+  font-weight: 600;
+  border-radius: 50px;
+  transition: all 0.3s ease;
+  margin-top: auto; /* Push button to the bottom */
+}
+
+.resource-card .btn-primary:hover {
+  background-color: #218838;
+  border-color: #1e7e34;
+  transform: scale(1.05);
+}

@@ -1,0 +1,17 @@
+
+.about-container {
+  padding: 2rem;
+  background-color: #f9f9f9;
+  border-radius: 15px;
+  margin-top: 2rem;
+}
+
+.about-container h1 {
+  color: var(--primary-color);
+  margin-bottom: 1.5rem;
+}
+
+.about-container p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
