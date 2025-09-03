@@ -1,6 +1,7 @@
 
 import React from 'react';
 import { useInView } from 'react-intersection-observer';
+import { Link } from 'react-router-dom';
 import './Home.css';
 
 const Home: React.FC = () => {
@@ -15,7 +16,9 @@ const Home: React.FC = () => {
         <div className="hero-content text-center">
           <h1 className="hero-headline">CHILL SCHOOLING</h1>
           <p className="hero-subheadline">Let's Score & CHill!</p>
-          <a href="/resources" className="btn btn-primary btn-lg cta-button">Start Learning</a>
+          <Link to="/resources" className="btn btn-primary btn-lg cta-button">Start Learning</Link>
+        </div>
+          
         </div>
       </div>
 
