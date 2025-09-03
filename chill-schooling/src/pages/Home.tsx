@@ -13,8 +13,8 @@ const Home: React.FC = () => {
       <div ref={heroRef} className={`hero-section ${heroInView ? 'animate__animated animate__fadeIn' : ''}`}>
         <div className="hero-overlay"></div>
         <div className="hero-content text-center">
-          <h1 className="display-3 hero-headline">Unlock Your Potential</h1>
-          <p className="lead hero-subheadline">High-quality educational resources for every student.</p>
+          <h1 className="hero-headline">CHILL SCHOOLING</h1>
+          <p className="hero-subheadline">Let's Score & CHill!</p>
           <a href="/resources" className="btn btn-primary btn-lg cta-button">Start Learning</a>
         </div>
       </div>

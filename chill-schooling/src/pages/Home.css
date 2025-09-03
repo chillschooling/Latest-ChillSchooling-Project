@@ -5,7 +5,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background: url('https://images.pexels.com/photos/3184418/pexels-photo-3184418.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1') no-repeat center center/cover;
+  background: url('https://images.pexels.com/photos/3769021/pexels-photo-3769021.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1') no-repeat center center/cover; /* More vibrant and educational image */
 }
 
 .hero-overlay {
@@ -14,7 +14,7 @@
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(66, 133, 244, 0.7); /* Vibrant blue overlay */
 }
 
 .hero-content {
@@ -24,14 +24,16 @@
 }
 
 .hero-headline {
-  font-size: 4.5rem;
-  font-weight: 700;
-  margin-bottom: 1.5rem;
+  font-size: 8rem; /* Very big font */
+  font-weight: 900; /* Make it bolder */
+  margin-bottom: 1rem;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Add some shadow for pop */
 }
 
 .hero-subheadline {
-  font-size: 1.75rem;
-  margin-bottom: 2.5rem;
+  font-size: 2.5rem; /* Larger and more prominent */
+  margin-bottom: 3rem;
+  font-weight: 500;
 }
 
 .cta-button {
