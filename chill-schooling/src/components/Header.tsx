@@ -1,4 +1,5 @@
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 
 import React from 'react';
 import { Link } from 'react-router-dom';
@@ -33,6 +34,8 @@ const Header: React.FC = () => {
       </nav>
     </header>
 =======
+=======
+>>>>>>> Stashed changes
 import React from 'react';
 import { Link } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css'; // Ensure Bootstrap CSS is imported
@@ -60,6 +63,9 @@ const Header: React.FC = () => {
         </div>
       </div>
     </nav>
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
   );
 };
