@@ -1,7 +1,7 @@
 import React from 'react';
 import './Notes.css';
 
-const FibreToFabric7Notes: React.FC = () => {
+const FibreToFabricNotes: React.FC = () => {
   return (
     <div className="notes-container">
       <h1>Chapter 3: Fibre to Fabric</h1>

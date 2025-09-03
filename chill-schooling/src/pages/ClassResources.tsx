@@ -76,7 +76,7 @@ const ClassResources: React.FC = () => {
                 {examType === 'CBSE' ? (
                   <Link to={`/resources/cbse/class/${grade}/${resource.name}/chapters`} className="btn btn-primary">View Chapters</Link>
                 ) : (
-                  <a href="#" className="btn btn-primary">View Resource</a>
+                  <button className="btn btn-primary" disabled>View Resource</button>
                 )}
               </div>
             </div>

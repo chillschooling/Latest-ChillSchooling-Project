@@ -102,6 +102,9 @@ import NutritionInPlantsNotes from './CBSE/Class7/Science/NutritionInPlants/Note
 import NutritionInAnimalsNotes from './CBSE/Class7/Science/NutritionInAnimals/Notes';
 import FibreToFabric7Notes from './CBSE/Class7/Science/FibreToFabric/Notes';
 import AcidsBasesAndSaltsNotes from './CBSE/Class7/Science/AcidsBasesAndSalts/Notes';
+import ReproductionInPlantsNotes from './CBSE/Class7/Science/ReproductionInPlants/Notes';
+import ElectricCurrentAndItsEffectsNotes from './CBSE/Class7/Science/ElectricCurrentAndItsEffects/Notes';
+import LightNotes from './CBSE/Class7/Science/Light/Notes';
 
 const notesComponents: { [key: string]: React.FC } = {
   'class6-knowing our numbers': KnowingOurNumbersNotes,
@@ -205,7 +208,6 @@ const notesComponents: { [key: string]: React.FC } = {
   'class7-acids bases and salts': AcidsBasesAndSaltsNotes,
   'class7-reproduction in plants': ReproductionInPlantsNotes,
           'class7-electric current and its effects': ElectricCurrentAndItsEffectsNotes,
-  'class7-light': LightNotes,
   'class7-light': LightNotes,
 };
 

@@ -24,7 +24,7 @@ const ChapterContent: React.FC = () => {
             <div className="card-body">
               <h5 className="card-title">Assignments</h5>
               <p className="card-text">Practice assignments for {chapterName}.</p>
-              <a href="#" className="btn btn-primary">View Assignments</a>
+              <button className="btn btn-primary" disabled>View Assignments</button>
             </div>
           </div>
         </div>
@@ -33,7 +33,7 @@ const ChapterContent: React.FC = () => {
             <div className="card-body">
               <h5 className="card-title">Quiz</h5>
               <p className="card-text">Test your knowledge with a quiz on {chapterName}.</p>
-              <a href="#" className="btn btn-primary">Start Quiz</a>
+              <button className="btn btn-primary" disabled>Start Quiz</button>
             </div>
           </div>
         </div>

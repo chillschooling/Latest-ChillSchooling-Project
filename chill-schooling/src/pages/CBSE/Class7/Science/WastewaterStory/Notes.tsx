@@ -119,7 +119,7 @@ const WastewaterStoryNotes: React.FC = () => {
           <li>Contribute to maintaining sanitation in public places.</li>
           <li>Adopt good sanitation practices.</li>
         </ul>
-      </div>
+      </section>
     </div>
   );
 };
