@@ -44,19 +44,19 @@ const ClassResources: React.FC = () => {
   let resourcesToDisplay: { name: string; description: string; }[] = [];
   let examType = '';
 
-  if (window.location.pathname.includes('/resources/cbse/')) {
+  if (window.location.hash.includes('/resources/cbse/')) {
     examType = 'CBSE';
     if (classNumber >= 6 && classNumber <= 10) {
       resourcesToDisplay = cbse6_10Resources;
     } else if (classNumber === 11 || classNumber === 12) {
       resourcesToDisplay = cbse11_12Resources;
     }
-  } else if (window.location.pathname.includes('/resources/jee/')) {
+  } else if (window.location.hash.includes('/resources/jee/')) {
     examType = 'JEE';
     if (classNumber === 11 || classNumber === 12) {
       resourcesToDisplay = jeeResources;
     }
-  } else if (window.location.pathname.includes('/resources/neet/')) {
+  } else if (window.location.hash.includes('/resources/neet/')) {
     examType = 'NEET';
     if (classNumber === 11 || classNumber === 12) {
       resourcesToDisplay = neetResources;
