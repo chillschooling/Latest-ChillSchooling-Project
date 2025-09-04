@@ -1,0 +1,84 @@
+
+.home-container {
+  background-color: #f5f5f5;
+  color: #333;
+}
+
+.hero-section {
+  background: url('https://images.unsplash.com/photo-1523240795612-9a054b0db644?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D') no-repeat center center/cover;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.hero-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.hero-content {
+  position: relative;
+  z-index: 1;
+  color: white;
+}
+
+.hero-headline {
+  font-size: 4rem;
+  font-weight: bold;
+}
+
+.hero-subheadline {
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.cta-button {
+  background-color: #d4e2d4;
+  border-color: #d4e2d4;
+  color: #333;
+  font-weight: bold;
+}
+
+.cta-button:hover {
+  background-color: #c3d3c3;
+  border-color: #c3d3c3;
+}
+
+.why-us-section, .featured-courses-section, .our-mission-section, .testimonials-section {
+  padding: 4rem 0;
+}
+
+.why-us-section {
+  background-color: #a7c7e7;
+}
+
+.featured-courses-section {
+  background-color: #f2d7d5;
+}
+
+.our-mission-section {
+  background-color: #fff;
+}
+
+.testimonials-section {
+  background-color: #d4e2d4;
+}
+
+.feature-item i {
+  color: #fff;
+  margin-bottom: 1rem;
+}
+
+.feature-item h3 {
+  color: #fff;
+}
+
+.feature-item p {
+  color: #f5f5f5;
+}
