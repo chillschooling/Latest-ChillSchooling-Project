@@ -1,3 +1,4 @@
+// This file was edited by Copilot on 2025-09-04. Auto-deployment test via GitHub Actions.
 import React from 'react';
 import { useInView } from 'react-intersection-observer';
 import { Link } from 'react-router-dom';
