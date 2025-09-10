@@ -77,15 +77,3 @@
   font-weight: 600;
   margin-bottom: 1rem;
 }
-
-.featured-courses-section {
-  padding: 6rem 2rem;
-  background-color: #f9f9f9;
-}
-
-.featured-courses-section h2 {
-  font-size: 3rem;
-  font-weight: 700;
-  color: var(--primary-color);
-  margin-bottom: 4rem;
-}

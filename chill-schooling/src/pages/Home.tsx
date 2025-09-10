@@ -6,7 +6,6 @@ import './Home.css';
 const Home: React.FC = () => {
   const { ref: heroRef, inView: heroInView } = useInView({ triggerOnce: true });
   const { ref: whyRef, inView: whyInView } = useInView({ triggerOnce: true });
-  const { ref: coursesRef, inView: coursesInView } = useInView({ triggerOnce: true });
 
   return (
     <div className="home-container">
@@ -37,13 +36,6 @@ const Home: React.FC = () => {
             <h3>Interactive Learning</h3>
             <p>Engage with our interactive and hands-on learning modules.</p>
           </div>
-        </div>
-      </div>
-
-      <div ref={coursesRef} className={`featured-courses-section ${coursesInView ? 'animate__animated animate__fadeIn' : ''}`}>
-        <h2 className="text-center">Featured Courses</h2>
-        <div className="row">
-          {/* Add course cards here */}
         </div>
       </div>
     </div>
